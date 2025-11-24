@@ -1,4 +1,4 @@
-// src/components/BlogSection.jsx
+
 import React from "react";
 
 const posts = [
