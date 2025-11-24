@@ -1,4 +1,4 @@
-/* src/styles/global.css */
+
 
 *,
 *::before,
@@ -34,7 +34,6 @@ body {
   line-height: 1.6;
 }
 
-/* Layout helpers */
 
 .app {
   min-height: 100vh;
@@ -58,7 +57,6 @@ body {
   color: #fff;
 }
 
-/* Navbar */
 
 .navbar {
   position: sticky;
@@ -146,7 +144,6 @@ body {
   cursor: pointer;
 }
 
-/* Buttons */
 
 .primary-btn {
   border-radius: 999px;
@@ -186,8 +183,6 @@ body {
   color: var(--accent-dark);
 }
 
-/* Micro animations for buttons */
-
 .primary-btn,
 .primary-outline-btn {
   transition: transform 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease, border-color 0.18s ease,
@@ -200,7 +195,6 @@ body {
   box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
 }
 
-/* Hero */
 
 .hero {
   position: relative;
@@ -282,7 +276,7 @@ body {
   background-color: var(--accent);
 }
 
-/* Section intro */
+
 
 .section-intro {
   margin-bottom: 40px;
@@ -310,7 +304,6 @@ body {
   margin-right: auto;
 }
 
-/* Icon features */
 
 .icon-features-grid {
   display: grid;
@@ -328,7 +321,6 @@ body {
   box-shadow: var(--shadow-soft);
 }
 
-/* nice hover */
 .icon-feature.card-hover {
   cursor: default;
 }
@@ -345,7 +337,7 @@ body {
   font-size: 13px;
 }
 
-/* Blog grid */
+
 
 .blog-grid {
   display: grid;
@@ -377,7 +369,7 @@ body {
   color: var(--text-muted);
 }
 
-/* Testimonials */
+
 
 .testimonials {
   max-width: 800px;
@@ -422,7 +414,7 @@ body {
   gap: 10px;
 }
 
-/* Stats */
+
 
 .stats-grid {
   display: grid;
@@ -459,7 +451,6 @@ body {
   background-color: var(--accent);
 }
 
-/* Portfolio */
 
 .portfolio-filters {
   display: flex;
@@ -524,7 +515,6 @@ body {
   opacity: 1;
 }
 
-/* Team */
 
 .team-grid {
   display: grid;
@@ -574,7 +564,7 @@ body {
   letter-spacing: 0.16em;
 }
 
-/* Products */
+
 
 .products-grid {
   display: grid;
@@ -608,7 +598,6 @@ body {
   margin: 4px 0 10px;
 }
 
-/* Footer */
 
 .footer {
   padding-top: 60px;
@@ -660,13 +649,11 @@ body {
   font-size: 13px;
 }
 
-/* Utility */
+
 
 .shadow-sm {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
 }
-
-/* Simple fade-in animation */
 
 .fade-in-up {
   opacity: 0;
@@ -674,9 +661,6 @@ body {
   animation: fadeInUp 0.7s ease forwards;
 }
 
-/* ===== Extra animations & transitions ===== */
-
-/* Smooth fade + slide up with delays */
 
 .animate-fade-up {
   opacity: 0;
@@ -696,7 +680,7 @@ body {
   animation-delay: 0.45s;
 }
 
-/* Slide from left / right */
+
 
 .animate-from-left {
   opacity: 0;
@@ -710,13 +694,10 @@ body {
   animation: slideRightIn 0.8s ease forwards;
 }
 
-/* Subtle float (loop) for avatars, icons, etc. */
 
 .animate-float {
   animation: floatSoft 6s ease-in-out infinite;
 }
-
-/* Generic card hover effect */
 
 .card-hover {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
@@ -727,7 +708,6 @@ body {
   box-shadow: 0 14px 40px rgba(0, 0, 0, 0.08);
 }
 
-/* Image zoom on hover */
 
 .image-zoom {
   overflow: hidden;
@@ -743,7 +723,7 @@ body {
   transform: scale(1.06);
 }
 
-/* Keyframes */
+
 
 @keyframes fadeInUp {
   to {
@@ -794,6 +774,3 @@ body {
   }
 }
 
-/* Desktop-first */
-/* If they only care about desktop, this is enough.
-   You can add media queries for smaller screens if you want. */
