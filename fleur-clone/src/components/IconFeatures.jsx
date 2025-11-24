@@ -1,4 +1,4 @@
-// src/components/IconFeatures.jsx
+
 import React from "react";
 
 const features = [
